@@ -66,7 +66,6 @@ DARWIN_LINKOPTS = [
 LINUX_DEFINES = [
     "-D_GLFW_HAS_XF86VM",
     "-D_GLFW_X11",
-    "-std=c11",
 ]
 
 LINUX_SRCS = [
@@ -94,7 +93,6 @@ LINUX_LINKOPTS = [
     "-lXfixes",
     "-ldl",
     "-lGL",
-    "-std=c11",
 ]
 
 cc_library(
